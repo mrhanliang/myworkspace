@@ -1,0 +1,10 @@
+package cn.cqupt.work1;
+
+import java.util.*;
+
+public class Test2_4test {
+	public static void main(String arg[]){
+		Scanner reader = new Sanner(System.in);
+		
+	}
+}
