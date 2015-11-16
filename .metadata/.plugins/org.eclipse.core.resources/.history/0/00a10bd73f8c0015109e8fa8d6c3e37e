@@ -1,0 +1,18 @@
+package cn.cqupt.work1;
+
+import java.util.*;
+
+public class Test2_4 {
+	public static void main(String args[]){
+		Scanner reader = new Scanner(System.in);
+		double sum = 0;
+		int m = 0;
+		while(reader.hasNextDouble()){
+			double x = reader.nextDouble();
+			m = m + 1;
+			sum = sum + x;
+		}
+		System.out.printf("%m个个数的和为：%f/n" , m ,sum);
+		System.out.printf("%m个个数的和的平均数为：%sum" , m ,sum = sum/m);
+	}
+}

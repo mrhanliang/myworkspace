@@ -1,0 +1,17 @@
+package cn.cqupt.work1;
+
+public class Test2_3 {
+	public static void main(String args[]){
+		char a = 'A';
+		float f = 123.12345678F;
+		double d = 123456.12345678;
+		long x = 5678;
+		System.out.printf("%10.3f%n%d%n%f%n%c",a,f,d,x,x=x+2);
+		//%d-----输出整形类型数据；
+		//%md-----输出的int类型数据占m列；
+		//%c-----输出字符类型数据；
+		//%f-----输出浮点类型数据，小数部分最多保留6位；
+		//%m.nf-----输出float数据占m列，小数点保留n位；
+		//%s-----输出字符串数据；
+	}
+}

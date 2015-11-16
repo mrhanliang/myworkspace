@@ -1,0 +1,11 @@
+package cn.cqupt.work1;
+
+public class Test2_3 {
+	public static void main(String args[]){
+		char a = "A";
+		float f = 123.12345678F;
+		double d = 123456.12345678;
+		long x = 5678;
+		System.out.printf("%d%n%f%n%c%n%d%n%10.3f%n",a,b,c,d,x,x=x+2);
+	}
+}
