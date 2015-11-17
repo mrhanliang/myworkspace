@@ -1,0 +1,12 @@
+package cn.cqupt.work1;
+
+public class Test3work5 {
+	public static void main(String args[]){
+		long i = 1;
+		long sum1 = 0;
+		long sum2 = 0;
+		for(i <= 100){
+			
+		}
+	}
+}

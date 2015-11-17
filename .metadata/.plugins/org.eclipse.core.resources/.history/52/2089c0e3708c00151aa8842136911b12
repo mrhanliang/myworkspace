@@ -1,0 +1,15 @@
+package cn.cqupt.work1;
+
+public class Test3work3 {
+	public static void main(String args[]){
+		int i = 8;
+		int j = 1;
+		int n = 0;
+		while(n < 1){
+			j = j * 10;
+			i = i + i*j + 8;
+			n++;
+		}
+		System.out.println(i);
+	}
+}

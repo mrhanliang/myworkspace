@@ -1,0 +1,16 @@
+package cn.cqupt.work1;
+
+public class Test3work3 {
+	public static void main(String args[]){
+		inti = 8;
+		int j = 10;
+		int n = 0;
+		long sum = 0;
+		while(n < 9){
+			sum = sum + i;
+			i = i*j + 8;
+			n++;
+		}
+		System.out.println(i);
+	}
+}

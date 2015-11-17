@@ -1,0 +1,15 @@
+package cn.cqupt.work1;
+
+import java.util.*;
+
+public class Test2_5 {
+	public static void main(String args[]){
+		Scanner reader = new Scanner(System.in);
+		System.out.println("输入待位移的int型整数：");
+		int x = reader.nextInt();
+		System.out.println("输入位移量：");
+		int i = reader.nextInt();
+		System.out.println("左移的结果是：" + (x<<i));
+		System.out.println("右移的结果是：" + (x>>i));
+	}
+}

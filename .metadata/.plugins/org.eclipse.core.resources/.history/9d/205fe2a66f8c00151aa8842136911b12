@@ -1,0 +1,15 @@
+package cn.cqupt.work1;
+
+public class Test3work2 {
+	public static void main(String args[]){
+		int i = 1;
+		int j = 0;
+		while(i <= 1000){
+			if(i%3 == 0 && i%7 == 0){
+			j = j + i;
+			i++;
+			}
+		}
+		System.out.println("从1到1000的可以被3和7同时整除的数的和为：" + j);
+	}
+}

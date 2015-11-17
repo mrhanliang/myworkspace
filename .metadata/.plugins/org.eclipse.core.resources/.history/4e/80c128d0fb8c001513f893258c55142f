@@ -1,0 +1,19 @@
+package cn.cqupt.work1;
+
+public class Test3work5 {
+	public static void main(String args[]){
+		long i = 1;
+		long j;
+		long sum1 = 0;
+		long sum2 = 0;
+		while(i <= 1){
+			sum1 = sum1 + i;
+			System.out.println(sum1);
+			j = i + 1;
+			System.out.println(j);
+			i = i*j;
+			System.out.println(i);
+		}
+		System.out.println(sum1);
+	}
+}
